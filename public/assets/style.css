@@ -1,0 +1,31 @@
+.main {
+    margin: 0 auto;
+}
+.movie{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list-movie{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-input{
+    display: flex;
+    gap: 2px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.search{
+    
+    padding: 0.5em 1em;
+    width: 400px;
+}
+
+button{
+    padding: 0.5em 1em;
+}
