@@ -29,3 +29,93 @@
 button{
     padding: 0.5em 1em;
 }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(to right, #ffffff,#0a9830);
+    position: fixed;
+    top: 0;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+nav .logo {
+    font-size: 1.rem;
+    width: 30%;
+    left: -35px;
+    position: relative;
+    top: -18px;
+}
+
+nav .logo img {
+    padding-top: 20px;
+    width: 60px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    padding: 0px 20px;
+    font-weight: bold;
+    transition: 0.15s;
+}
+
+nav a:hover {
+    color: aliceblue;
+}
+
+#nav-button {
+    display: none;
+}
+
+nav ul{
+    margin-top: 20px;
+}
+
+.konten {
+
+  width: 58.33%; /* 7 kolom dari total 12 kolom (58.33%) */
+  float: left; /* membuat elemen mengambang ke kiri */
+}
+
+.konten-text{
+  margin-left: 0.75rem; /* Atur margin kiri sebesar 0.75rem */
+  padding-left: 3.125rem; /* Atur padding kiri sebesar 3.125rem */
+  padding-right: 3.125rem; /* Atur padding kanan sebesar 3.125rem */
+
+}
+
+.grab {
+    color: #28a745; 
+    font-size: 2px;
+    font-weight: bold;
+    margin-top: 1px;
+  }
+
+.btn-brand{
+    display: inline-block;
+              border-radius: 20px;
+              background-color: #0a9830;
+              color: #FFFFFF;
+              text-align: center;
+              font-size: 16px;
+              padding: 12px 24px;
+              transition: all 0.5s;
+              cursor: pointer;
+              box-shadow: 0px 4px 6px rgba(0, 0, 2, 0.3);
+}

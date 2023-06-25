@@ -9,7 +9,7 @@ class KonsumenController extends Controller
 {
     public function index()
     {
-        $konsumen = konsumen::with('user')->get();
+        $konsumen = konsumen::get();
         
         // return $destinations;
         return view('tampil', compact('konsumen'));

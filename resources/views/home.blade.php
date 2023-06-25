@@ -22,11 +22,24 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="{{ asset('/assets/style.css') }}">
   </head>
   <body>
     <!-- Hero -->
    
+    <header>
+      <nav>
+        <div class="logo" >
+          <img src="assets/background.png" style="width: 100px" alt="" />
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="{{route('search.post')}}">OMDB</a></li>
+          <li><a href="{{route('database')}}">Database</a></li>
 
+        </ul>
+      </nav>
+    </header>
 
     
 

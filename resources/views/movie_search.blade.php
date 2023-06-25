@@ -8,8 +8,21 @@
     <link rel="stylesheet" href="{{ asset('/assets/style.css') }}">
 </head>
 <body class="main">
+    <header>
+        <nav>
+          <div class="logo" >
+            <img src="assets/background.png" style="width: 100px" alt="" />
+          </div>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="{{route('search.post')}}">OMDB</a></li>
+            <li><a href="{{route('database')}}">Database</a></li>
+  
+          </ul>
+        </nav>
+      </header>
     
-    <h1 align="center" id="judul">Database movie dari OMDb API</h1>
+    <h1 style="margin-top: 5%" align="center" id="judul">Database movie dari OMDb API</h1>
     <div class="search-container">
         <form action="{{ route('search.post') }}" method="post">
             @csrf
