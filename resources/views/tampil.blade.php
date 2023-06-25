@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Destinasi</title>
+    <title>Konsumen</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('/assets/style.css') }}">
 </head>
@@ -25,7 +25,7 @@
     <h1 class="text-center mt-2 mb-5 mt-5 pt-5">Data Konsumen</h1>
     
     <div class="container">
-      <a href="\tambahdestinasi" type="button" class="btn btn-primary">Tambah Destinasi</a>
+      <a href="\tambahdestinasi" type="button" class="btn btn-primary">Tambah Konsumen</a>
       <div class="row">
   
         <table class="table">
@@ -37,6 +37,7 @@
               <th scope="col">Age</th>
               <th scope="col">Phone</th>
               <th scope="col">Dibuat</th>
+              <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>
